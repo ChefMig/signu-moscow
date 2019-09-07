@@ -1,0 +1,83 @@
+html,
+body{
+    background-image: url(../img/SigBack4.PNG);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: inline;
+}
+h2{
+    margin-top: 0;
+    margin-left: 3%;
+    color: rgba(0,0,0,.6);
+}
+.nav{
+    width: 96%;
+    position: absolute;
+    bottom: 40px;
+    text-align:  center;
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 2px;
+    box-shadow: 3px 3px 5px #000;
+}
+    
+.nav ul{
+    margin: 0;
+    padding: 0;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    display: inline-block; 
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.nav a:hover{
+    background-color: lightsteelblue;
+}
+.media{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align:  center;
+}
+
+.media ul{
+    
+    
+}
+.media li{
+    list-style: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+.media a{
+    text-decoration: none;
+    color: rgba(0,0,0.5);
+    display: inline-block; 
+    font-family: monospace;
+    padding-right: 2px;
+    padding-left: 2px;
+    border-radius: 3px;
+}
+.media a:hover{
+    background-color:lightgrey;
+}
+
+
+
+
+
+
+/*End Navigation*/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;

@@ -1,0 +1,122 @@
+html{
+    background-color: whitesmoke;
+}
+body{
+    font-family: tahoma;
+    font-size: 85%
+}
+.container{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,.1);
+    padding: 10px 40px;
+    box-sizing: border-box;
+}
+header h2{
+    margin: 0;
+    margin-left: 3%;
+    color: rgba(70,30,0,.9);
+}
+header{
+    padding: 10px 0;
+    background-color: rgba(0,20,50,.3)
+}
+h3{
+    text-decoration: underline;
+}
+.content-area{
+    border-top: 3px solid black;
+   
+}   
+.first{
+    width: 60%;
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.second{
+    width: 40%;
+    float: left;       
+}
+.nav{
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+ul{
+    padding: 0;
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 2px;
+
+}
+    
+.nav a{
+    text-decoration: none;
+    color: black;
+    display: inline-block; 
+    padding: 2px 5px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 5px #000;
+}
+.nav a:hover{
+    background-color: silver;
+}
+.media{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.media ul{
+    padding: 0;
+   
+    
+}
+.media li{
+    list-style: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+.media a{
+    text-decoration: none;
+    color: rgba(0,0,0.5);
+    display: inline-block; 
+    font-family: monospace;
+    padding-right: 2px;
+    padding-left: 2px;
+    border-radius: 3px;
+}
+.media a:hover{
+    background-color: white;
+}
+footer{
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+    font-size: 60%;
+    color: rgba(0,0,0,.3);
+    
+}
+
+
+
+
+/*End Navigation*/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
