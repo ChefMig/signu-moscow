@@ -6,7 +6,8 @@ body{
     font-size: 85%
 }
 .container{
-    max-width: 100%;
+    max-width: 900px;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(0,0,0,.1);
@@ -27,6 +28,7 @@ h3{
 }
 .content-area{
     border-top: 3px solid black;
+    height: auto;
    
 }   
 .first{
@@ -38,6 +40,18 @@ h3{
 .second{
     width: 40%;
     float: left;       
+}
+@media screen and (max-width: 700px){
+    .first,
+    .second{
+        width: auto;
+        float: none;     
+    }
+    .container,
+    .first,
+    .second{
+        padding: 0px 10px;
+    }
 }
 .nav{
     position: absolute;
@@ -59,7 +73,6 @@ ul{
 .nav a{
     text-decoration: none;
     color: black;
-    display: inline-block; 
     padding: 2px 5px;
     border-radius: 2px;
     box-shadow: 3px 3px 5px #000;
@@ -110,6 +123,7 @@ footer{
     color: rgba(0,0,0,.3);
     
 }
+
 
 
 
