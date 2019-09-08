@@ -120,13 +120,19 @@ img{
 }
 /*End slideshow section*/
 
-
+@media screen and (max-width: 500px){
+    h3,
+    .nav,
+    .media{
+        font-size: 80%;
+    }
+}
 .nav{
     margin: 0;
     padding: 0;
     width: 100%;
-    position: absolute;
-    bottom: 60px;
+    position: relative;
+    bottom: -20px;
     text-align: center;
 }
 .nav li{
@@ -154,8 +160,8 @@ img{
 
 .media{
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: -20px;
     text-align: center;
 }
 

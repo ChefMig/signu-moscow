@@ -3,14 +3,13 @@ html{
 }
 body{
     font-family: tahoma;
-    font-size: 85%
+    font-size: 90%;
 }
 .container{
     max-width: 900px;
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(0,0,0,.1);
     padding: 10px 40px;
     box-sizing: border-box;
 }
@@ -28,8 +27,8 @@ h3{
 }
 .content-area{
     border-top: 3px solid black;
-    height: auto;
-   
+    background-color: rgba(0,0,0,.1);
+    padding: 0px 20px;
 }   
 .first{
     width: 60%;
@@ -41,6 +40,7 @@ h3{
     width: 40%;
     float: left;       
 }
+
 @media screen and (max-width: 700px){
     .first,
     .second{
@@ -53,16 +53,22 @@ h3{
         padding: 0px 10px;
     }
 }
+@media screen and (max-width: 500px){
+    body{
+        font-size: 85%;
+    }
+}
 .nav{
-    position: absolute;
+    position: relative;
     left: 0;
-    bottom: 40px;
+    bottom: -30px;
     width: 100%;
     text-align: center;
 }
 ul{
     padding: 0;
 }
+
 .nav li{
     list-style: none;
     display: inline-block;
@@ -81,18 +87,15 @@ ul{
     background-color: silver;
 }
 .media{
-    position: absolute;
+    position: relative;
     left: 0;
-    bottom: 5px;
+    bottom: -30px;
     width: 100%;
     text-align: center;
-    overflow: hidden;
 }
 
 .media ul{
-    padding: 0;
-   
-    
+    padding: 0;      
 }
 .media li{
     list-style: none;
@@ -117,7 +120,7 @@ ul{
 }
 footer{
     position: absolute;
-    right: 5px;
+    right: 10px;
     bottom: 0px;
     font-size: 60%;
     color: rgba(0,0,0,.3);
